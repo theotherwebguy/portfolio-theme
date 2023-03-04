@@ -4,3 +4,10 @@
  * 
  * @package Portfolio
  */
+
+ ?>
+
+<footer>Footer Template </footer>
+</body>
+</html>
+
