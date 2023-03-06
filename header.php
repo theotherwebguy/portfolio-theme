@@ -15,5 +15,8 @@
     <title>Portfolio Theme</title>
     <?php wp_head() ?>
 </head>
-<body>
+<body <?php body_class( ); ?>>
+
+    <!-- helps to inject GA or tracking scripts -->
+    <?php wp_body_open(  ); ?>
     <header> Headder Template</header>
