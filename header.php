@@ -18,5 +18,15 @@
 <body <?php body_class( ); ?>>
 
     <!-- helps to inject GA or tracking scripts -->
-    <?php wp_body_open(  ); ?>
-    <header> Headder Template</header>
+
+    <?php
+        if(function_exists('wp_body_open')){
+            wp_body_open(  );
+        }
+     ?>
+    <div id="page" class="site">
+        <header id="mustheaf" class="site-header">
+            
+        </header>
+        <div id="content" class="site-content">
+
