@@ -26,7 +26,7 @@
      ?>
     <div id="page" class="site">
         <header id="mustheaf" class="site-header">
-
+            <?php get_template_part('template-parts/header/nav'); ?>
         </header>
         <div id="content" class="site-content">
 
